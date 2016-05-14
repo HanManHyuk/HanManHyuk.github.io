@@ -121,22 +121,6 @@ var App = {
   work: function(){
     this.echo();
     this.echo("|   " + commandText('WORK'));
-    /*
-    this.echo("|  " + commandText('Software Engineering intern') + "                             at " + commandText("Codigm") + "\n|  Sept 2015 - Present");
-    this.echo("|    Assist development of Goorm Cloud IDE (http://goorm.io), \n|    mainly built with Node.js on top of Amazon Web Services, \n|    improving outdated codes through code review and building new features.");
-    this.echo("|    • Build automated bug reporting system for front-end using nightwatch.js.");
-    this.echo("|    • Build test cases for user management, locale and language support, \n|      and file management system.");
-    this.echo("|    • Develop Scala language plugin for Goorm IDE.");
-    this.echo("|    • Improve python flask framework plugin and develop a starter boilerplate.");
-    this.echo("|");
-    this.echo("|  " + commandText('Alternative Military Service') + "            at " + commandText("Suji Municipal Office") + "\n|  Aug 2013 - Aug 2015");
-    this.echo("|    • Received Basic Military Training and staged civil defense drills \n|      to prepare for any possible disaster.");
-    this.echo("|");
-    this.echo("|  " + commandText('Summer Internship') + "                                       at " + commandText("MtekVision") + "\n|  Jun 2013 - Aug 2013");
-    this.echo("|    • Assisted develop an internal file management system using Microsoft SharePoint.");
-    this.echo("|    • Created documentations, make a PowerPoint, and host a seminar for use of SharePoint.");
-    this.echo("|    • Conducted technical research on the semiconductor companies focusing on \n|      web-based marketing strategies of other semiconductor companies.");
-    */
     this.echo();
   },
   whoami: function(){
@@ -157,11 +141,6 @@ var App = {
   projects: function(){
     this.echo();
     this.echo("|  " + commandText('VV') + "    http://a.com                   ASDF                                             \n|    // ADSFA ");
-    /*
-    this.echo("|  " + commandText('VV') + "   http://nektime.herokuapp.com       Interview practicing web game            \n|    // Backend Development");
-    this.echo("|  " + commandText('Pook') + "      http://pook.run                    Parody website for violent protestors    \n|    // Full Stack Development ");
-    this.echo("|  " + commandText('Houston') + "                                      Arduino & Node.js Rocket                 \n|    // Embedded & Full Stack Development");
-    */
     this.echo();
   },
   skill: function(){
@@ -169,28 +148,20 @@ var App = {
   },
   skills: function(){
     this.echo("|");
-    // this.echo("|  " + commandText('Web Back-End'));
-    // this.echo("|");
     this.echo("|  [[g;#B2D100;]Web Back-End] ");
     this.echo("|  " + commandText('Node.js w/ Express') + "     ##[[g;#5BD100;]@@@@]                                               ##");
     this.echo("|  " + commandText('Ruby w/ Rails') + "          ##[[g;#B2D100;]@@@@]                                               ##");
     this.echo("|");
-    // this.echo("|  " + commandText("Web Front-End"));
-    // this.echo("|");
     this.echo("|  [[g;#B2D100;]Web Front-End] ");
     this.echo("|  " + commandText('Javascript') + "             ##[[g;#5BD100;]@@@@]                                               ##");
     this.echo("|  " + commandText('CSS / SASS') + "             ##[[g;#B2D100;]@@]                                                 ##");
     this.echo("|  " + commandText('HTML5') + "                  ##[[g;#B2D100;]@@]                                                 ##");
     this.echo("|");
-    // this.echo("|  " + commandText("Database"));
-    // this.echo("|");
     this.echo("|  [[g;#B2D100;]Database] ");
     this.echo("|  " + commandText('MySQL') + "                  ##[[g;#B2D100;]@@]                                                 ##");
     this.echo("|  " + commandText('MongoDB') + "                ##[[g;#D1B900;]@@]                                                 ##");
     this.echo("|");
     this.echo("|  [[g;#B2D100;]Native Mobile / Game Dev] ");
-    // this.echo("|  " + commandText("Native Mobile / Game Dev"));
-    // this.echo("|");
     this.echo("|  " + commandText('Unity (C#)') + "             ##[[g;#D1B900;]@@]                                                 ##");
     this.echo("|  " + commandText('Android') + "                ##[[g;#D13F00;]@@@@]                                               ##");
     this.echo("|  " + commandText('IOS') + "                    ##[[g;#D13F00;]@]                                                  ##");
@@ -293,40 +264,12 @@ var App = {
     this.echo("|  mkdir function currently under development");
     this.echo();
   },
-  /*
-  mobile: function(){
-    that.clear();
-    that.echo("[[g;#5BD100;]KEON KIM]");
-    that.echo("A Back-End Programmer");
-    that.echo("Machine Learning, NLP, Game, Web");
-    that.echo();
-    that.echo("[[g;#D13F00;]EXPERIENCE]");
-    that.echo("[[g;#B2D100;]Intern at Codigm 2015]");
-    that.echo("[[g;#B2D100;]Alternative Military 2013-2015]");
-    that.echo("[[g;#B2D100;]Intern at MtekVision 2013]");
-    that.echo();
-    that.echo("[[g;#D13F00;]EDUCATION]");
-    that.echo("B.A in CS | New York University");
-    that.echo();
-    that.echo("[[g;#B2D100;]Blog]");
-    that.echo("http://blog.keon.io");
-    that.echo("[[g;#B2D100;]GitHub]");
-    that.echo("http://github.com/keonkim");
-    that.echo("[[g;#B2D100;]Email]");
-    that.echo("keon.kim@nyu.edu");
-    that.echo();
-    that.echo("[[g;#D13F00;]Resume]");
-    that.echo("http://keon.io/KeonKim.pdf");
-    that.echo();
-    that.echo("Access with desktop for more!");
-    that.echo();
-  },
-  */
+
 }
 
 jQuery(document).ready(function($) {
   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      //window.location.href = "http://keon.io/resume";
+    
     $('body').terminal(App, {
       greetings: function(cb){
         that = this;
