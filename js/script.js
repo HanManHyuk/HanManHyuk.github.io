@@ -190,15 +190,15 @@ var App = {
     this.exec('awards');
   },
 
-  awards: function(){
-    this.echo();
-    this.echo("|  " + commandText('aaaaa') + "                                Oct  2015  \n|   | W                     project: http://a.com");
-    this.echo("|  " + commandText('3r') + "                                                           Sept 2015  \n|   | S                     project: http://a.com");
-    this.echo("|  " + commandText('2') + "                                                            Jan  2015  \n|   | D");
-    this.echo("|  " + commandText('11111') + "                                                        Dec  2014  \n|   | G");
-    this.echo();
-
-  },
+  // awards: function(){
+  //   this.echo();
+  //   this.echo("|  " + commandText('aaaaa') + "                                Oct  2015  \n|   | W                     project: http://a.com");
+  //   this.echo("|  " + commandText('3r') + "                                                           Sept 2015  \n|   | S                     project: http://a.com");
+  //   this.echo("|  " + commandText('2') + "                                                            Jan  2015  \n|   | D");
+  //   this.echo("|  " + commandText('11111') + "                                                        Dec  2014  \n|   | G");
+  //   this.echo();
+  //
+  // },
   download: function(){
     window.location.href = "./mm.pdf";
   },
