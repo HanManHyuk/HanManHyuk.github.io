@@ -12,19 +12,19 @@ var App = {
     if (typeof ret === 'undefined') ret = false;
     var greetText =
       "###################################################################################################################################\n"+
-      "|[[b;#00DE12;]\t\t     ______  _______         _____    _____   ______    ____   ____  _____      _____  ____   ____  ____    ____  ]   \t|\n"+
-      "|[[b;#00DE12;]\t\t    |      \\/       \\    ___|\\    \\  |\\    \\ |\\     \\  |    | |    ||\\    \\    /    /||    | |    ||    |  |    | ]  \t |\n"+
-      "|[[b;#00DE12;]\t\t   /          /\\     \\  /    /\\    \\  \\\\    \\| \\     \\ |    | |    || \\    \\  /    / ||    | |    ||    |  |    | ] \t  |\n"+
-      "|[[b;#00DE12;]\t\t  /     /\\   / /\\     ||    |  |    |  \\|    \\  \\     ||    |_|    ||  \\____\\/    /  /|    | |    ||    | /    // ]\t   |\n"+
-      "|[[b;#00DE12;]\t\t /     /\\ \\_/ / /    /||    |__|    |   |     \\  |    ||    .-.    | \\ |    /    /  / |    | |    ||    |/ _ _//  ] \t  |\n"+
-      "|[[b;#00DE12;]\t\t|     |  \\|_|/ /    / ||    .--.    |   |      \\ |    ||    | |    |  \\|___/    /  /  |    | |    ||    |\\    \\'  ]\t   |\n"+
-      "|[[b;#00DE12;]\t\t|\\____\\       |____|  /|____|  |____|   |____||\\_____/||____| |____|     /____/  /    |\\___\\_|____||____|  \\____\\ ]\t   |\n"+
-      "|[[b;#00DE12;]\t\t| |    |      |    | / |    |  |    |   |    |/ \\|   |||    | |    |    |`    | /     | |    |    ||    |   |    | ]\t  |\n"+
-      "|[[b;#00DE12;]\t\t \\|____|      |____|/  |____|  |____|   |____|   |___|/|____| |____|    |_____|/       \\|____|____||____|   |____|]       |\n"+
-      "|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                             |\n"+
-      "|\t\tHi, I'm " + commandText('ManHYuk') + " - Backend Web Developer in Korea.\t\t\t\t\t\t\t\t\t\t\t\t                        |\n"+
-      "|\t\tPlease type " +commandText('ls')+" or " +commandText('help')+ " for a list of commands.  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t |\n"+
-      "|\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     |\n"+
+      "#[[b;#00DE12;]\t\t     ______  _______         _____    _____   ______    ____   ____  _____      _____  ____   ____  ____    ____  ]   \t#\n"+
+      "#[[b;#00DE12;]\t\t    |      \\/       \\    ___|\\    \\  |\\    \\ |\\     \\  |    | |    ||\\    \\    /    /||    | |    ||    |  |    | ]  \t #\n"+
+      "#[[b;#00DE12;]\t\t   /          /\\     \\  /    /\\    \\  \\\\    \\| \\     \\ |    | |    || \\    \\  /    / ||    | |    ||    |  |    | ] \t  #\n"+
+      "#[[b;#00DE12;]\t\t  /     /\\   / /\\     ||    |  |    |  \\|    \\  \\     ||    |_|    ||  \\____\\/    /  /|    | |    ||    | /    // ]\t   #\n"+
+      "#[[b;#00DE12;]\t\t /     /\\ \\_/ / /    /||    |__|    |   |     \\  |    ||    .-.    | \\ |    /    /  / |    | |    ||    |/ _ _//  ] \t  #\n"+
+      "#[[b;#00DE12;]\t\t|     |  \\|_|/ /    / ||    .--.    |   |      \\ |    ||    | |    |  \\|___/    /  /  |    | |    ||    |\\    \\'  ]\t   #\n"+
+      "#[[b;#00DE12;]\t\t|\\____\\       |____|  /|____|  |____|   |____||\\_____/||____| |____|     /____/  /    |\\___\\_|____||____|  \\____\\ ]\t   #\n"+
+      "#[[b;#00DE12;]\t\t| |    |      |    | / |    |  |    |   |    |/ \\|   |||    | |    |    |`    | /     | |    |    ||    |   |    | ]\t  #\n"+
+      "#[[b;#00DE12;]\t\t \\|____|      |____|/  |____|  |____|   |____|   |___|/|____| |____|    |_____|/       \\|____|____||____|   |____|]       #\n"+
+      "#\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                             #\n"+
+      "#\t\tHi, I'm " + commandText('ManHYuk') + " - Backend Web Developer in Korea.\t\t\t\t\t\t\t\t\t\t\t\t                        #\n"+
+      "#\t\tPlease type " +commandText('ls')+" or " +commandText('help')+ " for a list of commands.  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t #\n"+
+      "#\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     #\n"+
       "###################################################################################################################################\n";
     if (!ret) {
         this.echo("\n" + greetText);
@@ -84,34 +84,36 @@ var App = {
   social: function(){
     this.echo();
     this.echo("|  " + commandText("Blog") + ":         http://naver.com");
-    this.echo("|  " + commandText("GitHub") + ":       http://naver.com");
-    this.echo("|  " + commandText("LinkedIn") + ":     http://naver.com");
-    this.echo("|  " + commandText("Twitter") + ":      http://naver.com");
+    this.echo("|  " + commandText("GitHub") + ":       https://github.com/HanManHyuk");
+    //this.echo("|  " + commandText("LinkedIn") + ":     http://naver.com");
+    //this.echo("|  " + commandText("Twitter") + ":      http://naver.com");
     this.echo();
   },
   github: function(){
     this.echo();
-    this.echo("|  http://naver.com");
+    this.echo("|  https://github.com/HanManHyuk");
     this.echo();
   },
 
-  facebook: function(){
-    this.echo();
-    this.echo("|  http://naver.com");
-    this.echo();
-  },
+  // unuse SNS
+  // facebook: function(){
+  //   this.echo();
+  //   this.echo("|  http://naver.com");
+  //   this.echo();
+  // },
+  //
+  // linkedin: function(){
+  //   this.echo();
+  //   this.echo("|  http://naver.com");
+  //   this.echo();
+  // },
+  //
+  // twitter: function(){
+  //   this.echo();
+  //   this.echo("|  http://naver.com");
+  //   this.echo();
+  // },
 
-  linkedin: function(){
-    this.echo();
-    this.echo("|  http://naver.com");
-    this.echo();
-  },
-
-  twitter: function(){
-    this.echo();
-    this.echo("|  http://naver.com");
-    this.echo();
-  },
   exp: function(){
     this.exec('work');
   },
@@ -130,7 +132,7 @@ var App = {
     this.echo();
     this.echo("|  Name:         " + commandText('ManHyuk Han'));
     this.echo("|");
-    this.echo("|  Summary:      I am a Backend Web Developer (primarily " + commandText('Node.js') + ", " + commandText('Ruby') + ")s");
+    this.echo("|  Summary:      I am a Backend Web Developer (primarily " + commandText('Node.js') + ", " + commandText('Ruby') + ")");
     this.echo("|                I am a student at " + commandText('KwangWoon University')+" majoring in "+commandText('Computer Software')+".");
     this.echo("|");
     this.echo();
@@ -158,7 +160,7 @@ var App = {
     this.echo("|  " + commandText('HTML5') + "                  ##[[g;#B2D100;]@@]                                                 ##");
     this.echo("|");
     this.echo("|  [[g;#B2D100;]Database] ");
-    this.echo("|  " + commandText('MySQL') + "                  ##[[g;#B2D100;]@@]                                                 ##");
+    this.echo("|  " + commandText('MariaDB (MySQL)') + "        ##[[g;#B2D100;]@@]                                                 ##");
     this.echo("|  " + commandText('MongoDB') + "                ##[[g;#D1B900;]@@]                                                 ##");
     this.echo("|");
     this.echo("|  [[g;#B2D100;]Native Mobile / Game Dev] ");
@@ -185,7 +187,6 @@ var App = {
   },
   credits: function(){
     this.echo();
-    this.echo("|  Site built by " + commandText('ManHyuk Han'));
     this.echo("|  Using " + commandText('Jquery Terminal Emulator') + " by " + commandText('Jakub Jankiewicz') + ": http://terminal.jcubic.pl");
     this.echo();
   },
@@ -195,7 +196,7 @@ var App = {
 
   awards: function(){
     this.echo();
-    this.echo("|  " + commandText('Top 10 in WearHacks Hackathon') + "                                Oct  2015  \n|   | W                     project: http://a.com");
+    this.echo("|  " + commandText('aaaaa') + "                                Oct  2015  \n|   | W                     project: http://a.com");
     this.echo("|  " + commandText('3r') + "                                                           Sept 2015  \n|   | S                     project: http://a.com");
     this.echo("|  " + commandText('2') + "                                                            Jan  2015  \n|   | D");
     this.echo("|  " + commandText('11111') + "                                                        Dec  2014  \n|   | G");
@@ -269,7 +270,6 @@ var App = {
 
 jQuery(document).ready(function($) {
   if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-    
     $('body').terminal(App, {
       greetings: function(cb){
         that = this;
