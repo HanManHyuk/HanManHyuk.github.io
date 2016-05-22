@@ -165,14 +165,10 @@ var App = {
     this.echo("|");
     this.echo("|  [[g;#B2D100;]Native Mobile / Game Dev] ");
     this.echo("|  " + commandText('Unity (C#)') + "             ##[[g;#D1B900;]@@]                                                 ##");
-    this.echo("|  " + commandText('Android') + "                ##[[g;#D13F00;]@@@@]                                               ##");
-    this.echo("|  " + commandText('IOS') + "                    ##[[g;#D13F00;]@]                                                  ##");
     this.echo("|");
     this.echo("|  [[g;#B2D100;]ETC] ");
     // this.echo("|");
     this.echo("|  " + commandText('Ubuntu Linux') + "           ##[[g;#B2D100;]@@]                                                 ##");
-    this.echo("|  " + commandText('Arduino') + "                ##[[g;#D1B900;]@@]                                                 ##");
-    this.echo("|  " + commandText('Heroku') + "                 ##[[g;#D1B900;]@@]                                                 ##");
     this.echo("|  " + commandText('AWS') + "                    ##[[g;#D13F00;]@@]                                                 ##");
     this.echo();
   },
