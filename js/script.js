@@ -69,24 +69,22 @@ var App = {
     // this.echo("|  " + commandText("intro") + "               - Display Message of the Day");
     this.echo();
     this.echo("|  " + commandText("about") + "              - Summary of me");
-    this.echo("|  " + commandText("work") + "               - My Professional Experience");
+    this.echo("|  " + commandText("activity") + "           - My Experience");
     this.echo("|  " + commandText("projects") + "           - Recent projects of mine");
     this.echo("|  " + commandText("skills") + "             - What I can do");
-    this.echo("|  " + commandText("awards") + "             - Awards and features for my work");
+    //this.echo("|  " + commandText("awards") + "             - Awards and features for my work");
     this.echo("|");
     this.echo("|  " + commandText("social") + "             - My Social Status");
     this.echo("|  " + commandText("contact") + "            - Contact me")
     this.echo("|");
-    this.echo("|  " + commandText("download") + "           - DOWNLOAD MY RESUME! (pdf) ");
+    //this.echo("|  " + commandText("download") + "           - DOWNLOAD MY RESUME! (pdf) ");
     this.echo("|  " + commandText("all") + "                - [[b;#00DE12;]Run all commands (recommended)]");
     this.echo();
   },
   social: function(){
     this.echo();
-    this.echo("|  " + commandText("Blog") + ":         http://naver.com");
+    //this.echo("|  " + commandText("Portfolio") + ":         http://manhyuk.xyz");
     this.echo("|  " + commandText("GitHub") + ":       https://github.com/HanManHyuk");
-    //this.echo("|  " + commandText("LinkedIn") + ":     http://naver.com");
-    //this.echo("|  " + commandText("Twitter") + ":      http://naver.com");
     this.echo();
   },
   github: function(){
@@ -94,26 +92,6 @@ var App = {
     this.echo("|  https://github.com/HanManHyuk");
     this.echo();
   },
-
-  // unuse SNS
-  // facebook: function(){
-  //   this.echo();
-  //   this.echo("|  http://naver.com");
-  //   this.echo();
-  // },
-  //
-  // linkedin: function(){
-  //   this.echo();
-  //   this.echo("|  http://naver.com");
-  //   this.echo();
-  // },
-  //
-  // twitter: function(){
-  //   this.echo();
-  //   this.echo("|  http://naver.com");
-  //   this.echo();
-  // },
-
   exp: function(){
     this.exec('work');
   },
@@ -122,7 +100,7 @@ var App = {
   },
   work: function(){
     this.echo();
-    this.echo("|   " + commandText('WORK'));
+    this.echo("|   " + commandText('WORK is not yet...'));
     this.echo();
   },
   whoami: function(){
@@ -133,16 +111,42 @@ var App = {
     this.echo("|  Name:         " + commandText('ManHyuk Han'));
     this.echo("|");
     this.echo("|  Summary:      I am a Backend Web Developer (primarily " + commandText('Node.js') + ", " + commandText('Ruby') + ")");
-    this.echo("|                I am a student at " + commandText('KwangWoon University')+" majoring in "+commandText('Computer Software')+".");
+    this.echo("|                I am a student at " + commandText('KwangWoon University')+" majoring in "+ commandText('Computer Software')+".");
     this.echo("|");
     this.echo();
   },
+
+
+
+
+  activity: function(){
+    this.exec('activities');
+  },
+  activities: function(){
+      this.echo();
+      this.echo("|  [[g;#B2D100;]Education]");
+      this.echo("|  ");
+      this.echo("|  " + commandText('# KwangWoonUniv') + ' majoring in ' + commandText('Computer Software'));
+      this.echo('|  ');
+      this.echo("|  [[g;#B2D100;]Club Activity]");
+      this.echo('|  ');
+      this.echo('|  ' + commandText('# S.O.P.T.') + "  2016.03 ~ 2016.06 " + commandText('18th Server Part'));
+      this.echo('|  ' + commandText(' //') + ' IT venture union club for university student');
+      this.echo('|  ');
+      this.echo('|  ' + commandText('# DASOM') + '');
+      this.echo();
+  },
+
   project: function(){
     this.exec('projects');
   },
   projects: function(){
     this.echo();
-    this.echo("|  " + commandText('VV') + "    http://a.com                   ASDF                                             \n|    // ADSFA ");
+    this.echo("|  " + commandText('VocaVocaNi') + "    http://vocavocani.xyz");
+    this.echo('|  ' + commandText('  //') +' Group Study for self-studing people');
+    this.echo();
+    this.echo('|  ' + commandText('TeamMate') + "      http://teammate.xyz");
+    this.echo('|  ' + commandText('  //') +' Team macthing and building services');
     this.echo();
   },
   skill: function(){
@@ -156,12 +160,12 @@ var App = {
     this.echo("|");
     this.echo("|  [[g;#B2D100;]Web Front-End] ");
     this.echo("|  " + commandText('Javascript') + "             ##[[g;#5BD100;]@@@@]                                               ##");
-    this.echo("|  " + commandText('CSS / SASS') + "             ##[[g;#B2D100;]@@]                                                 ##");
+    this.echo("|  " + commandText('CSS') + "                    ##[[g;#B2D100;]@@]                                                 ##");
     this.echo("|  " + commandText('HTML5') + "                  ##[[g;#B2D100;]@@]                                                 ##");
     this.echo("|");
     this.echo("|  [[g;#B2D100;]Database] ");
     this.echo("|  " + commandText('MariaDB (MySQL)') + "        ##[[g;#B2D100;]@@]                                                 ##");
-    this.echo("|  " + commandText('MongoDB') + "                ##[[g;#D1B900;]@@]                                                 ##");
+    //this.echo("|  " + commandText('MongoDB') + "                ##[[g;#D1B900;]@@]                                                 ##");
     this.echo("|");
     this.echo("|  [[g;#B2D100;]Native Mobile / Game Dev] ");
     this.echo("|  " + commandText('Unity (C#)') + "             ##[[g;#D1B900;]@@]                                                 ##");
@@ -174,8 +178,7 @@ var App = {
   },
   contact: function(){
     this.echo();
-    this.echo("|  " + commandText("Email") + ":         10000hyuk@naver.com");
-    this.echo("|  " + commandText("Phone") + ":         (010) 1231 1231");
+    this.echo("|  " + commandText("Email") + ":        10000hyuk@naver.com");
     this.echo();
   },
   credit: function(){
@@ -186,32 +189,41 @@ var App = {
     this.echo("|  Using " + commandText('Jquery Terminal Emulator') + " by " + commandText('Jakub Jankiewicz') + ": http://terminal.jcubic.pl");
     this.echo();
   },
-  award: function(){
-    this.exec('awards');
-  },
 
+  // AWARD
+
+  // award: function(){
+  //   this.exec('awards');
+  // },
   // awards: function(){
   //   this.echo();
   //   this.echo("|  " + commandText('aaaaa') + "                                Oct  2015  \n|   | W                     project: http://a.com");
-  //   this.echo("|  " + commandText('3r') + "                                                           Sept 2015  \n|   | S                     project: http://a.com");
-  //   this.echo("|  " + commandText('2') + "                                                            Jan  2015  \n|   | D");
-  //   this.echo("|  " + commandText('11111') + "                                                        Dec  2014  \n|   | G");
+
+  // },
+
+  download: function(){
+      this.echo();
+      this.echo('|  ' + commandText('Not yet...'));
+      this.echo();
+    // download path
+    //window.location.href = "./mm.pdf";
+  },
+
+  // BLOG
+
+  // blog: function(){
+  //   window.location.href = "http://manhyuk.xyz";
+  // },
+
+  // RESUME
+
+  // resume: function(){
+  //   this.echo();
+  //   this.echo("|  " + commandText("DOWNLOAD MY RESUME!") + "       http://naver.com");
   //   this.echo();
   //
   // },
-  download: function(){
-    window.location.href = "./mm.pdf";
-  },
-  blog: function(){
-    window.location.href = "http://naver.com";
-  },
 
-  resume: function(){
-    this.echo();
-    this.echo("|  " + commandText("DOWNLOAD MY RESUME!") + "       http://naver.com");
-    this.echo();
-
-  },
   cls: function(){
     this.clear();
   },
@@ -225,13 +237,12 @@ var App = {
     this.clear();
     this.exec('intro');
     this.exec('about');
-    this.exec('work');
+    this.exec('activities');
     this.exec('projects');
     this.exec('skills');
-    this.exec('awards');
     this.exec('social');
     this.exec('contact');
-    this.exec('resume');
+    //this.exec('resume');
   },
   sudo: function(){
     this.exec('login');
