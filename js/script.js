@@ -26,8 +26,7 @@ var App = {
       "#\t\tPlease type " +commandText('ls')+" or " +commandText('help')+ " for a list of commands.  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t #\n"+
       "#\t\t(Sorry, This is not complete Page. Please, Show Outline) \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t#\n"+
       "#\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     #\n"+
-      "###################################################################################################################################\n"
-      \;
+      "###################################################################################################################################\n";
     if (!ret) {
         this.echo("\n" + greetText);
     } else {
