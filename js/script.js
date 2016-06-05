@@ -25,7 +25,8 @@ var App = {
       "#\t\tHi, I'm " + commandText('ManHYuk') + " - Backend Web Developer in Korea.\t\t\t\t\t\t\t\t\t\t\t\t                        #\n"+
       "#\t\tPlease type " +commandText('ls')+" or " +commandText('help')+ " for a list of commands.  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t #\n"+
       "#\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     #\n"+
-      "###################################################################################################################################\n";
+      "###################################################################################################################################\n"
+      "Sorry, This is not complete page. Please, Show outline";
     if (!ret) {
         this.echo("\n" + greetText);
     } else {
