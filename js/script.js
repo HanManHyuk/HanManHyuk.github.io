@@ -146,8 +146,8 @@ var App = {
     this.echo("|  " + commandText('VocaVocaNi') + "    http://vocavocani.xyz");
     this.echo('|  ' + commandText('  //') +' Group Study for self-studing people');
     this.echo();
-    this.echo('|  ' + commandText('TeamMate') + "      http://teammate.xyz");
-    this.echo('|  ' + commandText('  //') +' Team macthing and building services');
+    this.echo('|  ' + commandText('MONSTUDY') + "      http://xxxx.xyz");
+    this.echo('|  ' + commandText('  //') +' Stduyroom Search and Review ');
     this.echo();
   },
   skill: function(){
