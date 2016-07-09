@@ -146,7 +146,7 @@ var App = {
     this.echo("|  " + commandText('VocaVocaNi') + "    http://vocavocani.xyz");
     this.echo('|  ' + commandText('  //') +' Group Study for self-studing people');
     this.echo();
-    this.echo('|  ' + commandText('MONSTUDY') + "      http://xxxx.xyz");
+    this.echo('|  ' + commandText('MONSTUDY') + "      https://play.google.com/store/apps/details?id=steam.appjam.sopt.com.myapplication");
     this.echo('|  ' + commandText('  //') +' Stduyroom Search and Review ');
     this.echo();
   },
