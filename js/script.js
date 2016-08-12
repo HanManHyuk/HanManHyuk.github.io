@@ -85,12 +85,13 @@ var App = {
   social: function(){
     this.echo();
     //this.echo("|  " + commandText("Portfolio") + ":         http://manhyuk.xyz");
-    this.echo("|  " + commandText("GitHub") + ":       https://github.com/HanManHyuk");
+    this.echo("|  " + commandText("GitHub") + ":       https://github.com/ManHyuk");
+    this.echo("|  " + commandText("Blog") + ":         https://manhyuk.github.io");
     this.echo();
   },
   github: function(){
     this.echo();
-    this.echo("|  https://github.com/HanManHyuk");
+    this.echo("|  https://github.com/ManHyuk");
     this.echo();
   },
   exp: function(){
@@ -134,7 +135,6 @@ var App = {
       this.echo('|  ' + commandText('# S.O.P.T.') + "  2016.03 ~ 2016.06 " + commandText('18th Server Part'));
       this.echo('|  ' + commandText(' //') + ' IT venture union club for university student');
       this.echo('|  ');
-      this.echo('|  ' + commandText('# DASOM') + '');
       this.echo();
   },
 
