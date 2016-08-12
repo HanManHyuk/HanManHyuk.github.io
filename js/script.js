@@ -132,7 +132,7 @@ var App = {
       this.echo('|  ');
       this.echo("|  [[g;#B2D100;]Club Activity]");
       this.echo('|  ');
-      this.echo('|  ' + commandText('# S.O.P.T.') + "  2016.03 ~ 2016.06 " + commandText('18th Server Part'));
+      this.echo('|  ' + commandText('# S.O.P.T.') + "  2016.03 ~ 2016.07 " + commandText('18th Server Part'));
       this.echo('|  ' + commandText(' //') + ' IT venture union club for university student');
       this.echo('|  ');
       this.echo();
@@ -169,7 +169,7 @@ var App = {
     //this.echo("|  " + commandText('MongoDB') + "                ##[[g;#D1B900;]@@]                                                 ##");
     this.echo("|");
     this.echo("|  [[g;#B2D100;]Native Mobile / Game Dev] ");
-    this.echo("|  " + commandText('Unity (C#)') + "             ##[[g;#D1B900;]@@]                                                 ##");
+    this.echo("|  " + commandText('Unity (C#)') + "             ##[[g;#D1B900;]@]                                                  ##");
     this.echo("|");
     this.echo("|  [[g;#B2D100;]ETC] ");
     // this.echo("|");
