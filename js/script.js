@@ -113,7 +113,7 @@ var App = {
     this.echo("|  Name:         " + commandText('ManHyuk Han'));
     this.echo("|");
     this.echo("|  Summary:      I am a Backend Web Developer (primarily " + commandText('Node.js') + ", " + commandText('Ruby') + ")");
-    this.echo("|                I am a student at " + commandText('KwangWoon University')+" majoring in "+ commandText('Computer Software')+".");
+    this.echo("|                && I am a student at " + commandText('KwangWoon University')+" majoring in "+ commandText('Computer Software')+".");
     this.echo("|");
     this.echo();
   },
