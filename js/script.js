@@ -24,6 +24,7 @@ var App = {
       "#\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                             #\n"+
       "#\t\tHi, I'm " + commandText('ManHYuk') + " - Backend Web Developer in Korea.\t\t\t\t\t\t\t\t\t\t\t\t                        #\n"+
       "#\t\tPlease type " +commandText('ls')+" or " +commandText('help')+ " for a list of commands.  \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t #\n"+
+      "#\t\t(Sorry, This is not complete Page. Please, Show Outline) \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t#\n"+
       "#\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t     #\n"+
       "###################################################################################################################################\n";
     if (!ret) {
@@ -133,7 +134,6 @@ var App = {
       this.echo('|  ' + commandText('# S.O.P.T.') + "  2016.03 ~ 2016.06 " + commandText('18th Server Part'));
       this.echo('|  ' + commandText(' //') + ' IT venture union club for university student');
       this.echo('|  ');
-      this.echo('|  ' + commandText('# DASOM') + '');
       this.echo();
   },
 
@@ -142,10 +142,16 @@ var App = {
   },
   projects: function(){
     this.echo();
-    this.echo("|  " + commandText('VocaVocaNi') + "    http://vocavocani.xyz");
+    this.echo('|  ' + commandText('MONSTUDY') + "      http://goo.gl/lW7TJK");
+    this.echo('|  ' + commandText('  //') +' Searching Study Room');
+    this.echo();
+    this.echo('|  ' + commandText('SeoulMarket') + "      https://goo.gl/SQ1Lo2");
+    this.echo('|  ' + commandText('  //') +' Searching Free market');
+    this.echo();
+    this.echo("|  " + commandText('VocaVocaNi') + "    http://vocavocani.xyz(uncompleted porject)");
     this.echo('|  ' + commandText('  //') +' Group Study for self-studing people');
     this.echo();
-    this.echo('|  ' + commandText('TeamMate') + "      http://teammate.xyz");
+    this.echo('|  ' + commandText('TeamMate') + "      http://teammate.xyz(uncompleted porject)");
     this.echo('|  ' + commandText('  //') +' Team macthing and building services');
     this.echo();
   },
@@ -173,7 +179,8 @@ var App = {
     this.echo("|  [[g;#B2D100;]ETC] ");
     // this.echo("|");
     this.echo("|  " + commandText('Ubuntu Linux') + "           ##[[g;#B2D100;]@@]                                                 ##");
-    this.echo("|  " + commandText('AWS') + "                    ##[[g;#D13F00;]@@]                                                 ##");
+    this.echo("|  " + commandText('AWS-EC2') + "                ##[[g;#D13F00;]@@]                                                 ##");
+    this.echo("|  " + commandText('AWS-RDS') + "                ##[[g;#D13F00;]@@]                                                 ##");
     this.echo();
   },
   contact: function(){
