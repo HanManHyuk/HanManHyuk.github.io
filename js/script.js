@@ -152,13 +152,8 @@ var App = {
     this.echo("|  " + commandText('VocaVocaNi') + "    http://vocavocani.xyz(uncompleted porject)");
     this.echo('|  ' + commandText('  //') +' Group Study for self-studing people');
     this.echo();
-<<<<<<< .merge_file_6EMb1A
     this.echo('|  ' + commandText('TeamMate') + "      http://teammate.xyz(uncompleted porject)");
     this.echo('|  ' + commandText('  //') +' Team macthing and building services');
-=======
-    this.echo('|  ' + commandText('MONSTUDY') + "      http://goo.gl/Edy1vF");
-    this.echo('|  ' + commandText('  //') +' Stduyroom Search and Review ');
->>>>>>> .merge_file_sDdxTV
     this.echo();
   },
   skill: function(){
