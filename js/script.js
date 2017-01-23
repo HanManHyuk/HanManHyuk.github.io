@@ -85,12 +85,12 @@ var App = {
   social: function(){
     this.echo();
     //this.echo("|  " + commandText("Portfolio") + ":         http://manhyuk.xyz");
-    this.echo("|  " + commandText("GitHub") + ":       https://github.com/HanManHyuk");
+    this.echo("|  " + commandText("GitHub") + ":       https://github.com/ManHyuk");
     this.echo();
   },
   github: function(){
     this.echo();
-    this.echo("|  https://github.com/HanManHyuk");
+    this.echo("|  https://github.com/ManHyuk");
     this.echo();
   },
   exp: function(){
