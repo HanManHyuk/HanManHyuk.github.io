@@ -183,6 +183,8 @@ var App = {
     this.echo("|  " + commandText('AWS-EC2') + "                ##[[g;#D13F00;]@@]                                                 ##");
     this.echo("|  " + commandText('AWS-RDS') + "                ##[[g;#D13F00;]@@]                                                 ##");
     this.echo();
+    this.echo("|  " + commandText('AWS-S3') + "                ##[[g;#D13F00;]@@]                                                 ##");
+    this.echo();
   },
   contact: function(){
     this.echo();
