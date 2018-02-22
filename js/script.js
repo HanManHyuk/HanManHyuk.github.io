@@ -119,19 +119,19 @@ var App = {
     this.echo('|  ');
     this.echo("|  [[g;#B2D100;]Activity]");
     this.echo('|  ');
-    this.echo('|  ' + commandText('# Smilegate-Server Dev Camp') + "  2018.01 ~ 2018.02 " + commandText('3rd'));
+    this.echo('|  ' + commandText('# Smilegate-Server Dev Camp') + commandText(' 3rd') + "  2018.01 ~ 2018.02 ");
     this.echo('|  ');
-    this.echo('|  ' + commandText('# AWS-Supporters') + "  2017.07 ~ 2018.08 " + commandText('1st'));
+    this.echo('|  ' + commandText('# AWS-Supporters') + commandText(' 1st') + "  2017.07 ~ 2018.08 ");
     this.echo('|  ');
-    this.echo('|  ' + commandText('# LikeLion') + "  2017.03 ~ 2018.02 " + commandText('5th'));
+    this.echo('|  ' + commandText('# LikeLion') + commandText(' 5th') + "  2017.03 ~ 2018.02 ");
     this.echo('|  ' + commandText(' //') + ' Global union club for university student');
     this.echo('|  ');
-    this.echo('|  ' + commandText('# P.rogramming') + "  2017.07 ~ 2017.09 " + commandText('7th'));
+    this.echo('|  ' + commandText('# P.rogramming') + commandText(' 7th')+ "  2017.07 ~ 2017.09 ");
     this.echo('|  ' + commandText(' //') + ' IT venture union club for university student');
     this.echo('|  ');
-    this.echo('|  ' + commandText('# S.O.P.T.') + "  2017.09 ~ 2018.01 " + commandText('21th Android Part'));
-    this.echo('|  ' + commandText('# S.O.P.T.') + "  2017.03 ~ 2017.07 " + commandText('20th iOS Part'));
-    this.echo('|  ' + commandText('# S.O.P.T.') + "  2016.03 ~ 2016.07 " + commandText('18th Server Part'));
+    this.echo('|  ' + commandText('# S.O.P.T.') + commandText(' 21th Android Part') + "  2017.09 ~ 2018.01 ");
+    this.echo('|  ' + commandText('# S.O.P.T.') + commandText(' 20th iOS Part') + "  2017.03 ~ 2017.07 " );
+    this.echo('|  ' + commandText('# S.O.P.T.') + commandText(' 18th Server Part') + "  2016.03 ~ 2016.07 ");
     this.echo('|  ' + commandText(' //') + ' IT venture union club for university student');
     this.echo('|  ');
   },
